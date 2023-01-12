@@ -1,0 +1,50 @@
+doctype html
+html
+  head
+    title Sameer Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      ul 
+        div#logo 
+          img(src="/static/img/logo.webp")
+          |SDA
+        li #[a(href="/") Home]
+        li #[a(href="/") Services]
+        li #[a(href="/") About]
+        li #[a(href="/") Contact Us]
+    section#introsection 
+     div Welcome To Sameer's Dance Academy 
+     div.small ``Adorn your Hobby with Dance``
+    section#missionsection 
+     h2 Our Mission
+     div.card
+      h3 Fit For Every Style
+      div.card-img 
+       img(src="/static/img/pic1.jpg")
+      div.card-box 
+       p Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, adipisci?
+     div.card
+      h3 Adding a Dance Curiosity
+      div.card-img 
+       img(src="/static/img/pic2.jpg")
+      div.card-box 
+       p Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, adipisci?
+     div.card
+      h3 The joy of Learning Best
+      div.card-img 
+       img(src="/static/img/pic3.png")
+      div.card-box 
+       p Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, adipisci?
+    section#sectionspo 
+      h2 Our Sponsors
+      div#sponsors 
+        img(src="/static/img/pic4.png", alt="sponsor img",class="spimg")
+        img(src="/static/img/pic5.jpg", alt="sponsor img",class="spimg")
+        img(src="/static/img/pic6.jpg", alt="sponsor img",class="spimg")
+        img(src="/static/img/pic7.png", alt="sponsor img",class="spimg")
+    footer#footer 
+      | Copyright © 2022 SameerDanceAcademy.com | All Right's Reserved
+    script 
+    include ../static/index.js
